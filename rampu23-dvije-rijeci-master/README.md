@@ -1,13 +1,4 @@
-# eMedi
-
-## Projektni tim
-
-Ime i prezime | E-mail adresa (FOI) | JMBAG | Github korisničko ime | Seminarska grupa
-------------  | ------------------- | ----- | --------------------- | ----------------
-David Matijanić | dmatijani21@student.foi.hr | 0016153844 | dmatijani | G02
-Viktor Lovrić | vlovric21@student.foi.hr | 0016154953 | vlovric21 | G02
-Domagoj Hegedušić | dhegedusi21@student.foi.hr | 0016153732 | dhegedusi21 | G02
-Magdalena Markovinović  | mmarkovin21@student.foi.hr | 0016155896 | mmarkoovin21 | G02
+# eMedi Grupni projekt
 
 ## Opis domene
 
@@ -21,17 +12,17 @@ Ovim dokumentom opisuju se jasne i detaljne specifikacije aplikativnog rješenja
 
 Oznaka | Naziv | Kratki opis | Odgovorni član tima
 ------ | ----- | ----------- | -------------------
-F01 | Prijava i registracija | Kako bi mogli iskoristiti sve mogućnosti aplikacije, potrebno je da se korisnik registrira s jedinstvenim osobnim podacima koji ga identificiraju. To su podatci poput imena, prezimena, korisničkog imena, email-a, lozinke i ostalih osobnih podataka. Za pristup svim funkcionalnostima aplikacije potrebna je prethodna prijava registriranog korisnika s potrebnim podacima koji su email i lozinka. | Magdalena Markovinović|  
-F02 | Pretraživanje i filtriranje doktora po određenim kriterijima | Korisnici aplikacije imaju mogućnost pretraživanja doktora prema njihovom nazivu. Doktori se mogu filtrirati po mnogo kategorija, što uključuje specijalizaciju, lokaciju, recenzijama | Magdalena Markovinović
+F01 | Prijava i registracija | Kako bi mogli iskoristiti sve mogućnosti aplikacije, potrebno je da se korisnik registrira s jedinstvenim osobnim podacima koji ga identificiraju. To su podatci poput imena, prezimena, korisničkog imena, email-a, lozinke i ostalih osobnih podataka. Za pristup svim funkcionalnostima aplikacije potrebna je prethodna prijava registriranog korisnika s potrebnim podacima koji su email i lozinka. | 
+F02 | Pretraživanje i filtriranje doktora po određenim kriterijima | Korisnici aplikacije imaju mogućnost pretraživanja doktora prema njihovom nazivu. Doktori se mogu filtrirati po mnogo kategorija, što uključuje specijalizaciju, lokaciju, recenzijama | 
 F03 | Pregled podataka o liječnicima | Korisnici mogu vidjeti sve bitne podatke o liječnicima te informacije koje su im potrebne. To uključuje radno vrijeme, adresu, telefonski broj, adresu elektroničke pošte, specijalizaciju, usluge koje pruža i slično. | Viktor Lovrić
-F04 | Dijeljenje informacija liječnika | Kako bi se olakšao prijenos informacija, korisnici na profilu svakog liječnika imaju gumb za dijeljenje informacija koji kopira najvažnije informacije o doktoru. | Magdalena Markovinović
+F04 | Dijeljenje informacija liječnika | Kako bi se olakšao prijenos informacija, korisnici na profilu svakog liječnika imaju gumb za dijeljenje informacija koji kopira najvažnije informacije o doktoru. |
 F05 | Prijava razloga pregleda | Nakon pregledavanja informacija o određenom doktoru, korisnici se mogu prijaviti kod istog. Ispunjavanjem polja za informacije o razlogu pregleda i pritiskom na gumb prijave, poslat će se zahtjev doktoru kojeg doktor treba prihvatiti ili odbiti. Prihvaćanje zahtjeva ovisi isključivo o doktoru i analizi razloga pregleda. U svrhu ovog projekta implementacija prijave razloga pregleda napravit će se na način da se svaki korisnikov zahtjev odobrava nakon fiksnog vremena te se o tome obavještava korisnika. | Viktor Lovrić
-F06 | Rezervacija termina pregleda | Kada je pacijent prijavljen kod doktora, ima mogućnost prijave termina pregleda. Pacijent za termin pregled prvo odabire dan te vremenski period unutar tog dana. Dani i vremenski periodi mogu biti ili dostupni ili nedostupni ovisno o zauzetosti doktora. | David Matijanić
-F07 | Pregled povijesti posjeta | Korisnik može pregledavati svoju povijest posjeta liječniku i vidjeti kakve lijekove je u tom posjetu dobio na recept. | David Matijanić
-F08 | Uređivanje podataka o korisniku | Korisnik može mijenjati svoje osobne podatke u aplikaciji. | David Matijanić
-F09 | Pisanje i pregled recenzija | Korisnici mogu pregledavati i ostavljati recenzije doktorima kod kojih su bili na pregledu. Recenzije sadrže ocjenu od 1 do 5 sa opcionalnim komentarom.| Domagoj Hegedušić
-F10 | Obavještavanje korisnika | Korisnik će od aplikacije zaprimiti obavijest sta vremena prije rezerviranog termina kod doktora. Korisnik će također dobivati obavijesti kada mu je prijava kod doktora odobrena. | Domagoj Hegedušić
-F11 | Pristupačni način za slabovidne osobe | Aplikacija omogućava niz funkcija koje će osobama sa slabijim ili oštećenim vidom pomoći pri upotrebi. Funkcije se odnose na povećanje slova, promjenu fonta za osobe sa poteškoćom u čitanju i promjenu boje aplikacije. | Domagoj Hegedušić
+F06 | Rezervacija termina pregleda | Kada je pacijent prijavljen kod doktora, ima mogućnost prijave termina pregleda. Pacijent za termin pregled prvo odabire dan te vremenski period unutar tog dana. Dani i vremenski periodi mogu biti ili dostupni ili nedostupni ovisno o zauzetosti doktora. | 
+F07 | Pregled povijesti posjeta | Korisnik može pregledavati svoju povijest posjeta liječniku i vidjeti kakve lijekove je u tom posjetu dobio na recept. | 
+F08 | Uređivanje podataka o korisniku | Korisnik može mijenjati svoje osobne podatke u aplikaciji. | 
+F09 | Pisanje i pregled recenzija | Korisnici mogu pregledavati i ostavljati recenzije doktorima kod kojih su bili na pregledu. Recenzije sadrže ocjenu od 1 do 5 sa opcionalnim komentarom.| 
+F10 | Obavještavanje korisnika | Korisnik će od aplikacije zaprimiti obavijest sta vremena prije rezerviranog termina kod doktora. Korisnik će također dobivati obavijesti kada mu je prijava kod doktora odobrena. | 
+F11 | Pristupačni način za slabovidne osobe | Aplikacija omogućava niz funkcija koje će osobama sa slabijim ili oštećenim vidom pomoći pri upotrebi. Funkcije se odnose na povećanje slova, promjenu fonta za osobe sa poteškoćom u čitanju i promjenu boje aplikacije. | 
 F12 | Odjava i brisanje računa | Korisnik ima mogućnost odjave iz aplikacije i mogućnost brisanje svog korisničkog računa. | Viktor Lovrić
 
 ## Tehnologije i oprema
