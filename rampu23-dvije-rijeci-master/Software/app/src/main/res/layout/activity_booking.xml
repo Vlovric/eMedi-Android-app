@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp">
+
+        <EditText
+            android:id="@+id/et_symptoms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Symptoms" />
+
+        <EditText
+            android:id="@+id/et_duration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Duration"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/et_history"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Medical history"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/et_urgency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Urgency"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/et_additional_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Additional information"
+            android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_sendBooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Send"
+        android:background="@drawable/buttons_shape"
+        app:backgroundTint="@color/medi_blue"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:id="@+id/tv_warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Every field except Additional information must be entered."
+        android:textColor="@color/medi_blue"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

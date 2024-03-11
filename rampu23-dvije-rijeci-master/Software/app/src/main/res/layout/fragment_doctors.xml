@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/root_layout"
+    tools:context=".fragments.DoctorsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="6dp">
+
+        <EditText
+            android:id="@+id/tv_search_doctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="6dp"
+            android:hint="Search doctors..."
+            android:padding="6dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+    <TextView
+        android:id="@+id/tv_city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/spn_city_filter"
+        android:text="City" />
+    <Spinner
+        android:id="@+id/spn_city_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"/>
+    <TextView
+        android:id="@+id/tv_specialization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/spn_specialisation_filter"
+        android:layout_marginTop="6dp"
+        android:text="Specialization" />
+    <Spinner
+        android:id="@+id/spn_specialisation_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"/>
+    <TextView
+        android:id="@+id/tv_rate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/spn_review_filter"
+        android:layout_marginTop="6dp"
+        android:text="Rate" />
+    <Spinner
+        android:id="@+id/spn_review_filter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="6dp"/>
+    <RelativeLayout
+        android:layout_width="230dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/btn_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Filter"
+            android:background="@drawable/buttons_shape"
+            app:backgroundTint="@color/medi_blue"/>
+        <Button
+            android:id="@+id/btn_clear_filter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"
+            android:background="@drawable/buttons_shape"
+            android:layout_alignParentEnd="true"
+            app:backgroundTint="@color/medi_blue"/>
+    </RelativeLayout>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_doctors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:id="@+id/tv_error_message"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/not_found_grey"
+        android:text=" " />
+
+</LinearLayout>

@@ -1,0 +1,29 @@
+<!-- res/layout/item_color_palette.xml -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="8dp">
+
+    <View
+        android:id="@+id/color1"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="?attr/colorPrimary" />
+
+    <View
+        android:id="@+id/color2"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:background="?attr/colorAccent" />
+
+    <View
+        android:id="@+id/color3"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:background="?attr/colorControlNormal" />
+
+</LinearLayout>

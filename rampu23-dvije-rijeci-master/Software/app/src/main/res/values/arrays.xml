@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="font_options">
+        <item>Default</item>
+        <item>JetBrains Mono</item>
+        <item>Dyslexie</item>
+        <item>Roboto Mono</item>
+        <item>Slabo</item>
+        <item>Titilium Web</item>
+
+    </string-array>
+</resources>

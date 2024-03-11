@@ -1,0 +1,7 @@
+Prvi korisnik:
+- korisničko ime: ja
+- lozinka: ti
+
+Drugi korisnik:
+- korisničko ime: korisnik2
+- lozinka: lozinka2

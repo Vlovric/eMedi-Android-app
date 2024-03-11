@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#777777</color>
+    <color name="steel_blue">#34495e</color>
+    <color name="beige">#F5F5DC</color>
+    <color name="olive_green">#789E2B</color>
+    <color name="linen">#FAF0E6</color>
+    <color name="sienna">#A35519</color>
+
+
+    <color name="medi_blue">#2596be</color>
+    <color name="medi_blue_light">#5BD8E3</color>
+    <color name="positive_green">#00A000</color>
+    <color name="negative_red">#850C0C</color>
+    <color name="not_found_grey">#808080</color>
+</resources>

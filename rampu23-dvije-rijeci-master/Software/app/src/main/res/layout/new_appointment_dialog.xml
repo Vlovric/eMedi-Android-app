@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        android:layout_marginBottom="10dp"
+        android:text="@string/appointment_time"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_an_avalible_date_and_time_slot"
+        android:layout_marginBottom="32dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/et_appointment_date"
+        android:text="@string/date" />
+    <EditText
+        android:id="@+id/et_appointment_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="date" />
+
+    <TextView
+        android:id="@+id/tv_existing_appointments_message"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/negative_red"
+        android:text="@string/you_have_appointments_already_on_that_date" />
+    <TextView
+        android:id="@+id/tv_existing_appointments"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/negative_red"
+        tools:text="- Appointment 1\n- Appointment 2" />
+
+    <TextView
+        android:id="@+id/tv_existing_doctor_appointments_message"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/negative_red"
+        android:text="@string/doctor_is_unavalible" />
+    <TextView
+        android:id="@+id/tv_existing_doctor_appointments"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/negative_red"
+        tools:text="- from 10:00 to 10:30\n- from 12:30 to 14:00" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/et_appointment_start_time"
+        android:text="@string/start_time" />
+    <EditText
+        android:id="@+id/et_appointment_start_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="time" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/et_appointment_end_time"
+        android:text="@string/end_time" />
+    <EditText
+        android:id="@+id/et_appointment_end_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:importantForAutofill="no"
+        android:inputType="time" />
+
+</LinearLayout>

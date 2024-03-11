@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/rounded_background"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_appointment_doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        tools:text="Appointment with dr. Speciajl Specijalić (doktor)">
+    </TextView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_appdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Date and time: "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_appointment_date_and_time"
+            android:textColor="@color/black"
+            tools:text="glavobolja u koljenu"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_margin="4dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_appsymptoms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Symptoms: "/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_appointment_symptoms"
+            android:textColor="@color/black"
+            tools:text="glavobolja u koljenu"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_appointment_already_done"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="4dp"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:textColor="@color/negative_red"
+        android:text="@string/this_appointment_is_already_done"/>
+
+    <Button
+        android:id="@+id/btn_appt_details"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/medi_blue"
+        android:text="@string/view_details"/>
+
+</LinearLayout>
